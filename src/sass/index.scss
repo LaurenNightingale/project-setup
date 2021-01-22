@@ -1,1 +1,10 @@
+@import "./tokens/colors.scss";
+@import "./tokens/units.scss";
+@import "./tokens/typo.scss";
+
+@import "./general/index.scss";
+
+@import "./utlis/ds.scss";
+
 @import "./partials/example";
+@import "./partials/modules/header.scss";
