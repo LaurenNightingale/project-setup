@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    public: ["./src/js/modules/index.js", "./src/sass/index.scss"],
+    public: ["./src/js/index.js", "./src/sass/index.scss"],
   },
   output: {
     path: path.resolve(__dirname, "./dist/"),
