@@ -42,12 +42,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Desgin System",
+      title: "Design System",
       template: "src/design-system.html",
       filename: "design-system.html",
     }),
     new HtmlWebpackPlugin({
-      title: "My Index",
+      title: "Startseite",
       template: "src/index.html",
       filename: "index.html",
     }),

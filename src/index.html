@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -7,5 +7,20 @@
   </head>
   <body>
     <h1>My Homepage</h1>
+  </body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <details open>
+      <summary>Header</summary>
+      <%= require('html-loader!./partials/modules/header.html') %>
+    </details>
   </body>
 </html>
