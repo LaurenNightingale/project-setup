@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     background-color: white;
-    padding: $-unit-xs;
+    padding: $t-unit-xs;
   
     .logo {
       padding: $t-unit-xs;
     }
   
     .mainnav{
-      padding: $unit-xs;
+      padding: $t-unit-xs;
       display: none;
     }
 }
