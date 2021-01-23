@@ -51,6 +51,22 @@ module.exports = {
       template: "src/index.html",
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Ueber Mich",
+      template: "src/uebermich.html",
+      filename: "uebermich.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Kontakt",
+      template: "src/kontakt.html",
+      filename: "kontakt.html",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Arbeiten",
+      template: "src/arbeiten.html",
+      filename: "arbeiten.html",
+    }),
+
   ],
   devServer: {
     contentBase: path.join(__dirname, "dist"),

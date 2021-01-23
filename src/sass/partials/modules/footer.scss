@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: $t-units-s;
+  
+  
+    .mainnav{
+      padding: $t-units-s;
+      display: none;
+    }
+}
