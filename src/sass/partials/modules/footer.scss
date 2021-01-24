@@ -16,7 +16,16 @@
         li {
           display: inline-block;
           margin-right: $t-units-s;
+
+          a{
+            transition: all 0.2;
+            color: black;
+  
+            &:hover {
+              color: $primarycolour;
+            }
         }
       }
     }
+  } 
 }

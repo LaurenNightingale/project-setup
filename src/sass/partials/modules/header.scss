@@ -4,6 +4,7 @@
     align-items: center;
     background-color: white;
     padding: $t-units-s;
+
   
     .mainnav{
       padding: $t-units-s;
@@ -12,11 +13,19 @@
       flex-grow: 1;
 
       ul {
-        display: inline-block;
         li {
           display: inline-block;
           margin-right: $t-units-s;
+        
+        a{
+          transition: all 0.2;
+          color: black;
+
+          &:hover {
+            color: $primarycolour;
+          }
         }
       }
     }
+  }
 }
