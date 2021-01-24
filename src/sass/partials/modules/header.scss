@@ -1,15 +1,22 @@
 .header {
-    display: flex;
+  position:relative;
+    display: block;
     align-items: center;
     background-color: white;
-    padding: $t-units-xl;
-  
-    .logo {
-      padding: $t-units-xs;
-    }
+    padding: $t-units-s;
   
     .mainnav{
-      padding: $t-units-xl;
-      display: none;
+      padding: $t-units-s;
+      display: block;
+      text-align: center;
+      flex-grow: 1;
+
+      ul {
+        display: inline-block;
+        li {
+          display: inline-block;
+          margin-right: $t-units-s;
+        }
+      }
     }
 }
