@@ -14,13 +14,19 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>
+      <%= htmlWebpackPlugin.options.title %>
+    </title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <details open>
       <summary>Header</summary>
       <%= require('html-loader!./partials/modules/header.html') %>
+  </details>
+    <details open>
+      <summary>Footer  </summary>
+      <%= require('html-loader!./partials/modules/Footer.html') %>
     </details>
   </body>
 </html>

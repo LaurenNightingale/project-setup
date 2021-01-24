@@ -22,3 +22,16 @@ $t-font-family: 'montserrat', sans-serif;
   font-weight: $t-font-style-h1;
   color: $primarycolour;
   }
+
+  .h2 {
+    text-align: center;
+    padding: $t-units-s;
+    display: block;
+    font-size: $t-font-size-h2;
+    margin: $t-units-xs;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: $t-font-style-h2;
+    color: $primarycolourshade1;
+    }
+  

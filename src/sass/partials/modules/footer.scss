@@ -1,13 +1,22 @@
 .footer {
-    display: flex;
+  position:relative;
+    display: block;
     align-items: center;
     background-color: white;
     padding: $t-units-s;
   
-  
-    .footernav{
+    .footernav {
       padding: $t-units-s;
-      display: none;
+      display: block;
       text-align: center;
+      flex-grow: 1;
+
+      ul {
+        display: inline-block;
+        li {
+          display: inline-block;
+          margin-right: $t-units-s;
+        }
+      }
     }
 }
