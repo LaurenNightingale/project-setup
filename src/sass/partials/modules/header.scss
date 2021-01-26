@@ -1,15 +1,20 @@
 .header {
-  position:relative;
+  position:left;
     display: block;
-    align-items: center;
+    align-items: left;
     background-color: white;
     padding: $t-units-s;
 
   
+    .h1 {
+      text-align: left;
+    }
+    
     .mainnav{
+      font-size: $t-font-size-h2;
       padding: $t-units-s;
       display: block;
-      text-align: center;
+      text-align: left;
       flex-grow: 1;
 
       ul {
@@ -20,6 +25,7 @@
         a{
           transition: all 0.2;
           color: black;
+          text-decoration: none;
 
           &:hover {
             color: $primarycolour;

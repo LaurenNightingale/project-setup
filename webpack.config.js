@@ -1,5 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const copywebpackplugin = require ('copy-webpack-plugin');
+const copyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -52,22 +54,25 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      title: "Ueber Mich",
-      template: "src/uebermich.html",
-      filename: "uebermich.html",
+      title: "About Me",
+      template: "src/Aboutme.html",
+      filename: "Aboutme.html",
     }),
     new HtmlWebpackPlugin({
-      title: "Kontakt",
-      template: "src/kontakt.html",
-      filename: "kontakt.html",
+      title: "Contact",
+      template: "src/Contact.html",
+      filename: "Contact.html",
     }),
     new HtmlWebpackPlugin({
-      title: "Arbeiten",
-      template: "src/arbeiten.html",
-      filename: "arbeiten.html",
+      title: "Works",
+      template: "src/Works.html",
+      filename: "Works.html",
     }),
 
-  ],
+    new copyWebpackPlugin ({
+      patterns: [{ from:"src/images", to:"images"}]
+    })
+],
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
