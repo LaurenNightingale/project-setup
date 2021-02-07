@@ -22,3 +22,4 @@ class Toggle {
   }
   
   export default Toggle;
+

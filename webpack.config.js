@@ -3,6 +3,7 @@ const path = require("path");
 const copywebpackplugin = require ('copy-webpack-plugin');
 const copyWebpackPlugin = require("copy-webpack-plugin");
 
+
 module.exports = {
   entry: {
     public: ["./src/js/index.js", "./src/sass/index.scss"],
