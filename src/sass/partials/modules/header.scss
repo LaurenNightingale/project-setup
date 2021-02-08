@@ -1,4 +1,4 @@
-.header {
+header {
   position:left;
   float: left;
     display: block;
@@ -7,9 +7,29 @@
     padding: $t-units-s;
 
   
-    .h1 {
-      text-align: left;
+    h1 {
+        padding: $t-units-s;
+        display: block;
+        font-size: $t-font-size-h1;
+        margin: $t-units-xs;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: $t-font-style-h1;
+        color: $primarycolour;
+        text-align: left;
+
+        a{
+          transition: all 0.2;
+          color: $primarycolour;
+          text-decoration: none;
+
+          &:hover {
+            color: black;
+          }
+        }
     }
+
+    
     
     .mainnav{
       font-size: $t-font-size-h2;

@@ -60,18 +60,18 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       title: "About Me",
-      template: "src/Aboutme.html",
-      filename: "Aboutme.html",
+      template: "src/aboutme.html",
+      filename: "aboutme.html",
     }),
     new HtmlWebpackPlugin({
       title: "Contact",
-      template: "src/Contact.html",
-      filename: "Contact.html",
+      template: "src/contact.html",
+      filename: "contact.html",
     }),
     new HtmlWebpackPlugin({
       title: "Works",
-      template: "src/Works.html",
-      filename: "Works.html",
+      template: "src/works.html",
+      filename: "works.html",
     }),
 
     new copyWebpackPlugin ({

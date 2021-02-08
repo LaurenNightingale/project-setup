@@ -2,12 +2,12 @@
     font-size: $t-font-size-h2;
     padding: $t-units-s;
     display: block;
-    text-align: left;
+    text-align: center;
     flex-grow: 1;
 
     ul {
       li {
-        display:flex;
+        display: inline-block;
         margin-right: $t-units-s;
       
       a{
