@@ -4,6 +4,10 @@
     align-items: center;
     background-color: white;
     padding: $t-units-s;
+
+    .clear {
+      clear: left;
+    }
   
     .footernav {
       padding: $t-units-s;

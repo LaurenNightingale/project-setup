@@ -1,8 +1,16 @@
 body {
     font-family: "raleway", sans-serif;
   background-color: #fff;
-  padding: $t-units-s;
-  
+  padding: $t-units-s; 
+
+
+  main {
+    padding: $t-units-s;
+    overflow: auto;
+}
+
+
+
   h1 {
     padding: $t-units-s;
     display: block;

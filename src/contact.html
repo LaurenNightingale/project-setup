@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
       <%= htmlWebpackPlugin.options.title %>
     </title>
@@ -12,13 +13,15 @@
       <summary>Header</summary>
       <%= require('html-loader!./partials/modules/header.html') %>
     </details>
-
+    <main>
       <h1>Contact</h1>
       <h2>Kontaktmöglichkeiten</h2>
       <h3><p>E-mail: lauren.nightingale@study.hs-duesseldorf.de</p>
       <p>Telefon: 015779395577</p></h3>
       <h2>Soziale Medien</h2>
      <h3>Instagram: laurenphilippa_</h3>
+
+    </main>
 
      <details open>
       <summary>Footer</summary>

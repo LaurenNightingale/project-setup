@@ -6,6 +6,11 @@ header {
     background-color: white;
     padding: $t-units-s;
 
+    /*.clearfix::after{
+      content: "";
+      clear: left;
+    }*/
+
   
     h1 {
         padding: $t-units-s;
@@ -29,8 +34,7 @@ header {
         }
     }
 
-    
-    
+  
     .mainnav{
       font-size: $t-font-size-h2;
       padding: $t-units-s;
