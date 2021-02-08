@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Lauren Nightingale</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title>
+      <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <details open>
@@ -11,13 +13,17 @@
       <%= require('html-loader!./partials/modules/header.html') %>
     </details>
       <h1>About Me</h1>
-      <a href="index.html"><a href="index.html"><Zur Startseite wechseln /></a>
 
       <h2>Lauren Nightingale</h2>
       <h3><p>*05.03.2001, Düsseldorf</p>
         <p>2019 Abitur am Görres Gymnasium, Düsseldorf</p>
         <p>2020 Beginn des Studiums Kommunikationsdesign an der Hochschule Düsseldorf</p>
       </h3>
+      
+      <details open>
+        <summary>Footer</summary>
+        <%= require('html-loader!./partials/modules/Footer.html') %>
+      </details>
  
   </body>
 </html>

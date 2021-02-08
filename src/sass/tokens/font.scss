@@ -11,8 +11,8 @@ $t-font-style-h3: normal;
 @import url('https://fonts.googleapis.com/css?family=raleway&display=swap');
 $t-font-family: 'raleway', sans-serif;
 
-h1 {
-  text-align: center;
+/*h1 {
+  text-align: left;
   padding: $t-units-s;
   display: block;
   font-size: $t-font-size-h1;
@@ -21,10 +21,22 @@ h1 {
   margin-right: 0;
   font-weight: $t-font-style-h1;
   color: $primarycolour;
+}*/
+h1 {
+  padding: $t-units-s;
+  display: block;
+  font-size: $t-font-size-h1;
+  margin: $t-units-xs;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: $t-font-style-h1;
+  color: $primarycolour;
+  text-align: left;
+
   }
 
   h2 {
-    text-align: center;
+    text-align: left;
     padding: $t-units-s;
     display: block;
     font-size: $t-font-size-h2;
@@ -34,8 +46,9 @@ h1 {
     font-weight: $t-font-style-h2;
     color: $primarycolourshade1;
     }
+
   h3 {
-    text-align: center;
+    text-align: left;
     padding: $t-units-s;
     display: block;
     font-size: $t-font-size-h3;
@@ -43,6 +56,6 @@ h1 {
     margin-left: 0;
     margin-right: 0;
     font-weight: $t-font-style-h3;
-    color: $primarycolourshade1;
+    color: black;
       }
     
