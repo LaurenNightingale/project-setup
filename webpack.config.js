@@ -73,6 +73,11 @@ module.exports = {
       template: "src/works.html",
       filename: "works.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Works 2019",
+      template: "src/works2019.html",
+      filename: "works2019.html",
+    }),
 
     new copyWebpackPlugin ({
       patterns: [{ from:"src/images", to:"images"}]
