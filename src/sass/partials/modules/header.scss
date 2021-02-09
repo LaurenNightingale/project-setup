@@ -1,15 +1,17 @@
 header {
-  position:left;
+  position: fixed;
+  /* eigentlich position: absolute; aber soll fixed sein */
   float: left;
     display: block;
     align-items: left;
     background-color: white;
     padding: $t-units-s;
 
-    /*.clearfix::after{
+    header::after{ 
       content: "";
-      clear: left;
-    }*/
+      display: table-column;
+      clear: both;
+    } /*why does this take no effect*/
 
   
     h1 {
@@ -41,6 +43,17 @@ header {
       display: block;
       text-align: left;
       flex-grow: 1;
+
+      h2 {
+        padding: $t-units-s;
+        
+        font-size: $t-font-size-h2;
+        margin: $t-units-xs;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: $t-font-style-h2;
+        color: $primarycolourshade1;
+        }
 
       ul {
         li {

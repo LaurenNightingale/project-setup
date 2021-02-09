@@ -1,20 +1,9 @@
-<!--<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <h1>My Homepage</h1>
-  </body>
-</html>-->
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/zeichenflaeche1.png">
     <title>
       <%= htmlWebpackPlugin.options.title %>
     </title>
@@ -26,11 +15,11 @@
       <%= require('html-loader!./partials/modules/header.html') %>
   </details>
 <main>
-  <h1> Willkommen! </h1>
-
+  <section id="up"></section>
+  <h1>Welcome</h1>
+ 
 </main>
-
-    <details open>
+   <details open>
       <summary>Footer  </summary>
       <%= require('html-loader!./partials/modules/Footer.html') %>
     </details>

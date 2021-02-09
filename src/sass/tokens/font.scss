@@ -24,21 +24,17 @@ $t-font-family: 'raleway', sans-serif;
 }*/
 h1 {
   padding: $t-units-s;
-  display: block;
   font-size: $t-font-size-h1;
   margin: $t-units-xs;
   margin-left: 0;
   margin-right: 0;
   font-weight: $t-font-style-h1;
   color: $primarycolour;
-  text-align: left;
 
   }
 
   h2 {
-    text-align: left;
     padding: $t-units-s;
-    display: block;
     font-size: $t-font-size-h2;
     margin: $t-units-xs;
     margin-left: 0;
@@ -48,9 +44,7 @@ h1 {
     }
 
   h3 {
-    text-align: left;
     padding: $t-units-s;
-    display: block;
     font-size: $t-font-size-h3;
     margin: $t-units-xs;
     margin-left: 0;

@@ -1,13 +1,41 @@
-.footer {
+footer {
   position: bottom;
     display: block;
     align-items: center;
     background-color: white;
     padding: $t-units-s;
+  
 
-    .clear {
-      clear: left;
+    h2 {
+      padding: $t-units-s;
+      display: block;
+      font-size: $t-font-size-h2;
+      margin: $t-units-xs;
+      margin-left: 0;
+      margin-right: 0;
+      font-weight: $t-font-style-h2;
+      color: $primarycolourshade1;
+      text-align: center;
+
+      
+
+      a{
+        /*text-align: center;*/
+        transition: all 0.2;
+        color: $primarycolourshade1;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+        }
+      }
     }
+
+    /*.onepager {
+      display: block;
+      text-align: center;
+     padding: $t-units-s;
+     }*/
   
     .footernav {
       padding: $t-units-s;

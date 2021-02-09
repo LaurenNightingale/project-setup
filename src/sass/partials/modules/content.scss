@@ -2,16 +2,24 @@ body {
     font-family: "raleway", sans-serif;
   background-color: #fff;
   padding: $t-units-s; 
+  
 
+  a{
+    transition: all 0.2;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: $primarycolour;
+    }
+  }
 
   main {
     padding: $t-units-s;
-    overflow: auto;
+    text-align:left;
 }
 
-
-
-  h1 {
+h1 {
     padding: $t-units-s;
     display: block;
     font-size: $t-font-size-h1;
@@ -25,7 +33,6 @@ body {
     }
   
     h2 {
-      text-align: left;
       padding: $t-units-s;
       display: block;
       font-size: $t-font-size-h2;
@@ -37,7 +44,6 @@ body {
       }
   
     h3 {
-      text-align: left;
       padding: $t-units-s;
       display: block;
       font-size: $t-font-size-h3;
