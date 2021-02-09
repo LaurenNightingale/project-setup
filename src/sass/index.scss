@@ -2,7 +2,7 @@
 @import "./tokens/units.scss";
 @import "./tokens/font.scss";
 
-@import "./general/index.scss";
+/*@import "./general/index.scss";*/
 
 @import "./utils/ds.scss";
 
@@ -14,3 +14,5 @@
 @import "src/sass/partials/modules/worknav.scss";
 @import "src/sass/partials/modules/content.scss";
 @import "./partials/modules/header.scss";
+/*@import "./utils/reset.scss";*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
