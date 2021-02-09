@@ -1,11 +1,15 @@
 header {
-  position: fixed;
+  position: sticky;
   /* eigentlich position: absolute; aber soll fixed sein */
   float: left;
     display: block;
     align-items: left;
     background-color: white;
-    padding: $t-units-s;
+    margin-right: $t-units-s;
+
+    /*.searchicon {
+
+    }*/
 
     header::after{ 
       content: "";
@@ -15,12 +19,8 @@ header {
 
   
     h1 {
-        padding: $t-units-s;
         display: block;
         font-size: $t-font-size-h1;
-        margin: $t-units-xs;
-        margin-left: 0;
-        margin-right: 0;
         font-weight: $t-font-style-h1;
         color: $primarycolour;
         text-align: left;
@@ -39,18 +39,12 @@ header {
   
     .mainnav{
       font-size: $t-font-size-h2;
-      padding: $t-units-s;
       display: block;
       text-align: left;
       flex-grow: 1;
 
       h2 {
-        padding: $t-units-s;
-        
         font-size: $t-font-size-h2;
-        margin: $t-units-xs;
-        margin-left: 0;
-        margin-right: 0;
         font-weight: $t-font-style-h2;
         color: $primarycolourshade1;
         }
@@ -58,7 +52,7 @@ header {
       ul {
         li {
           display: inline-block;
-          margin-right: $t-units-s;
+          
         
         a{
           transition: all 0.2;

@@ -1,6 +1,5 @@
 body {
-  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-    font-family: "raleway", sans-serif;
+  font-family: "raleway", sans-serif;
   background-color: #fff;
   padding: $t-units-s; 
 
@@ -20,12 +19,8 @@ body {
 }
 
 h1 {
-    padding: $t-units-s;
     display: block;
     font-size: $t-font-size-h1;
-    margin: $t-units-xs;
-    margin-left: 0;
-    margin-right: 0;
     font-weight: $t-font-style-h1;
     color: $primarycolour;
     text-align: left;
@@ -33,23 +28,15 @@ h1 {
     }
   
     h2 {
-      padding: $t-units-s;
       display: block;
       font-size: $t-font-size-h2;
-      margin: $t-units-xs;
-      margin-left: 0;
-      margin-right: 0;
       font-weight: $t-font-style-h2;
       color: $primarycolourshade1;
       }
   
     h3 {
-      padding: $t-units-s;
       display: block;
       font-size: $t-font-size-h3;
-      margin: $t-units-xs;
-      margin-left: 0;
-      margin-right: 0;
       font-weight: $t-font-style-h3;
       color: black;
         }
@@ -57,6 +44,8 @@ h1 {
         img{
 
           padding-left: $t-units-s;
+          padding-right: 0%;
+          padding-top: $t-units-s;
           width: 25%;
           height: auto;
         }
