@@ -8,10 +8,35 @@ header {
     background-color: white;
     /*margin-right: $t-units-s;*/ /*not necessary as width of main is defined*/
 
-    .mainnav input [type=search] { 
+    input { 
+      width: 132px;
+      height: $t-units-m;
       float: left;
-      padding: $t-units-s;
+      margin-left: $t-units-s;
+      background-color: white;
+      border-radius: 50px;
+      border-style:solid;
+      border-color: $primarycolourshade2;
+      transition: all 0.2 ease 0;
+      font-size: $t-font-style-h4;
+      
+      &:hover {
+       background-color: $primarycolourshade2;
+       transition: all 0.2;
+      }
     }
+
+
+    /*a img [type=search] {
+      background-image: url(#);
+      background-size: 100% auto;
+      color: transparent;
+      width: $t-units-s;
+      height: $t-units-s;
+      display: inline-block;
+      background-repeat: no-repeat;
+    }*/
+
 
     /*.searchicon {
 
