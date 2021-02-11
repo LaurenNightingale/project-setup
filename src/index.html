@@ -10,18 +10,14 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
+  
       <%= require('html-loader!./partials/modules/header.html') %>
-  </details>
-<main>
-  <section id="up"></section>
-  <h1>Welcome</h1>
- 
-</main>
-   <details open>
-      <summary>Footer  </summary>
-      <%= require('html-loader!./partials/modules/Footer.html') %>
-    </details>
+   <div class="mainwrapper">
+    <main>
+     <h1>Welcome</h1>
+    </main>
+
+    <%= require('html-loader!./partials/modules/footer.html') %>
+   </div>
   </body>
 </html>

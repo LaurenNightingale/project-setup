@@ -10,20 +10,12 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
+   
       <%= require('html-loader!./partials/modules/header.html') %>
-    </details>
 
+<div class="mainwrapper">
     <main>
-      <section id="up"></section>
       <h1>Works</h1>
-      <!--<button class="accordion">2019</button>
-      <div class="panel">images</div>
-      <button class="accordion">2020</button>
-      <div class="panel">images</div>
-      <button class="accordion">2021</button>
-      <div class="panel">images</div>-->
 
       <nav class="worknav">
        <ul>
@@ -32,13 +24,11 @@
           <li><a href="works2021.html">2021</a></li>
         </ul>
       </nav>
+   </main>
 
-    </main>
-
-      <details open>
-        <summary>Footer</summary>
-        <%= require('html-loader!./partials/modules/Footer.html') %>
-      </details>
     
+    <%= require('html-loader!./partials/modules/footer.html') %>
+
+    </div>
   </body>
 </html>

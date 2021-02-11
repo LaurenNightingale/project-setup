@@ -10,27 +10,19 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
+   
       <%= require('html-loader!./partials/modules/header.html') %>
-    </details>
+    
+  <div class="mainwrapper">
     <main>
-      <section id="up"></section>
       <h1>Contact</h1>
       <h2>Contact me via</h2>
       <h3><p>E-mail: lauren.nightingale@study.hs-duesseldorf.de</p>
       <p>Mobile: 015779395577</p></h3>
       <h2>Social Media</h2>
-     <h3><a href="https://www.instagram.com/laurenphilippa_/">Instagram: laurenphilippa_</a></h3>
-
-     
-
+     <h3>Instagram: <a href="https://www.instagram.com/laurenphilippa_/">laurenphilippa_</a></h3>
     </main>
-
-     <details open>
-      <summary>Footer</summary>
-      <%= require('html-loader!./partials/modules/Footer.html') %>
-    </details>
-  
-  </body>
+    <%= require('html-loader!./partials/modules/footer.html') %>
+  </div>
+</body>
 </html>

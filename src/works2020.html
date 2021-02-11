@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
+
       <%= require('html-loader!./partials/modules/header.html') %>
-    </details>
+      <div class="mainwrapper">
     <main>
-      <section id="up"></section>
+   
       <h1>Works</h1>
 
       <nav class="worknav">
@@ -31,11 +30,8 @@
       <img src="./images/PostkarteCorona1Vor.jpg">
       <img src="./images/PostkarteVorderseite.jpg">
     </main>
-
-      <details open>
-        <summary>Footer</summary>
-        <%= require('html-loader!./partials/modules/Footer.html') %>
-      </details>
-    
+        <%= require('html-loader!./partials/modules/footer.html') %>
+   
+      </div>
   </body>
 </html>

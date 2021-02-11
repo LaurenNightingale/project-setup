@@ -10,22 +10,17 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
+   
       <%= require('html-loader!./partials/modules/header.html') %>
-    </details>
+    <div class="mainwrapper">
     <main>
-      <section id="up"></section>
       <h1>About Me</h1>
       <h2>Lauren Nightingale</h2>
       <h3><p>*05.03.2001</p>
         <p>2019 Abitur Graduation Görres Gymnasium, Düsseldorf</p>
       <p>2020 Start of visual communication studies, "Kommunikationsdesign" at Hochschule Düsseldorf</p></h3>
     </main>
-
-      <details open>
-        <summary>Footer</summary>
-        <%= require('html-loader!./partials/modules/Footer.html') %>
-      </details>
+    <%= require('html-loader!./partials/modules/footer.html') %>
+    </div>
   </body>
 </html>

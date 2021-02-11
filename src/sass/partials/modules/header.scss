@@ -1,17 +1,18 @@
 header {
-  width: $t-units-xxl; /*This is cheating*/
+@media screen and (min-width:600px) {
+  width: $t-units-xxl; 
+  /*This is cheating*/
   position: fixed;
   /* whilst fixed works, sticky takes no effect */
-  float: left;
+  /*float: left;
     display: block;
     align-items: left;
     background-color: white;
     /*margin-right: $t-units-s;*/ /*not necessary as width of main is defined*/
-
-    input { 
+}
+    /*input { 
       width: 132px;
       height: $t-units-m;
-      float: left;
       margin-left: $t-units-s;
       background-color: white;
       border-radius: 50px;

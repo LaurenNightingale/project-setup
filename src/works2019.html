@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
+ 
       <%= require('html-loader!./partials/modules/header.html') %>
-    </details>
 
+      <div class="mainwrapper">
     <main>
-      <section id="up"></section>
 
       <h1>Works</h1>
 
@@ -28,12 +26,11 @@
         </ul>
       </nav>
 
-      <img src="./images/langzeitjapan.jpg">
+    <img src="./images/langzeitjapan.jpg">
     </main>
-      <details open>
-        <summary>Footer</summary>
-        <%= require('html-loader!./partials/modules/Footer.html') %>
-      </details>
-    
+      
+        <%= require('html-loader!./partials/modules/footer.html') %>
+  
+      </div>
   </body>
 </html>

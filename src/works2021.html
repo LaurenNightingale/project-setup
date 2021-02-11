@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <details open>
-      <summary>Header</summary>
-      <%= require('html-loader!./partials/modules/header.html') %>
-    </details>
 
+      <%= require('html-loader!./partials/modules/header.html') %>
+
+    <div class="mainwrapper">
     <main>
-      <section id="up"></section>
       <h1>Works</h1>
 
       <nav class="worknav">
@@ -28,13 +26,11 @@
         </ul>
       </nav>
       <img src="./images/IMG_0338.jpg">
-      <img src="./images/Lauren.Nightingale.Langzeit.20-21._DSC8799.tif">
       <img src="./images/Lauren.Nighitngale.Pictoralismus3.20-21.jpeg-1.jpg">
     </main>
-      <details open>
-        <summary>Footer</summary>
-        <%= require('html-loader!./partials/modules/Footer.html') %>
-      </details>
-    
+
+        <%= require('html-loader!./partials/modules/footer.html') %>
+
+    </div>
   </body>
 </html>
