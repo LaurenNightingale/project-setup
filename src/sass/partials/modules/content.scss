@@ -42,8 +42,8 @@ body {
        } 
        .imagecontainer:hover {
          h4 {
-
-           display: inline-block;
+           padding: $t-units-s;
+         display: inline-block;
           }
          }
       }
