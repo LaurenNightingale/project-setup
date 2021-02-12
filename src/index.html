@@ -15,6 +15,52 @@
    <div class="mainwrapper">
     <main>
      <h1>Welcome</h1>
+    <section class="slideshow" aria-label="Gallery">
+      <ol class="slideshow__viewport">
+        <li id="slideshow__slide1"
+            tabindex="0"
+            class="slideshow__slide">
+            <a href="works2019.html"><img src="./images/langzeitjapan.jpg"></a>
+           
+        </li>
+        <li id="slideshow__slide2"
+            tabindex="0"
+            class="slideshow__slide">
+            <a href="works2021.html"><img src="./images/IMG_0338.jpg"></a>
+        </li>
+        <li id="slideshow__slide3"
+            tabindex="0"
+            class="slideshow__slide">
+            <a href="works2021.html"><img src="./images/Lauren.Nighitngale.Pictoralismus3.20-21.jpeg-1.jpg"></a>
+        </li>
+        <li id="slideshow__slide4"
+            tabindex="0"
+            class="slideshow__slide">
+            <a href="works2020.html"><img src="./images/PostkarteCorona2Vor.jpg"></a>
+     
+        </li>
+      </ol>
+      <aside class="slideshow__nav">
+        <ol class="slideshow__nav-list">
+          <li class="slideshow__nav-item">
+            <a href="#slideshow__slide1"
+               class="slideshow__nav-button">Go to slide 1</a>
+          </li>
+          <li class="slideshow__nav-item">
+            <a href="#slideshow__slide2"
+               class="slideshow__nav-button">Go to slide 2</a>
+          </li>
+          <li class="slideshow__nav-item">
+            <a href="#slideshow__slide3"
+               class="slideshow__nav-button">Go to slide 3</a>
+          </li>
+          <li class="slideshow__nav-item">
+            <a href="#slideshow__slide4"
+               class="slideshow__nav-button">Go to slide 4</a>
+          </li>
+        </ol>
+      </aside>
+    </section>
     </main>
 
     <%= require('html-loader!./partials/modules/footer.html') %>
