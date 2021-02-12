@@ -1,8 +1,11 @@
-/*-------- Desktop --------*/
+
 body {
   font-family: "raleway", sans-serif;
   background-color: #fff;
-  padding: $t-units-s; 
+  padding: $t-units-s;
+  word-wrap: break-word;
+  
+
 
   a{
     transition: all 0.2;
@@ -13,14 +16,37 @@ body {
       color: $primarycolour;
     }
   }
-  
+  /*-------- Responsiveness --------*/
   .mainwrapper {
     @media  screen and (min-width:600px) {
       margin-left: 256px;
-      /*padding: $t-units-s;*/
+      margin-right: $t-units-s;
       text-align:left;
-      
-    }
+
+      .imagecontainer {
+        padding: $t-units-s;
+        width: 100%;
+
+        h4 { 
+   
+        display: none;
+        } /*trying to workout how margin needs to be in order for h4 to float on the right*/
+
+        img{
+          display: inline-block;
+          padding-right: $t-units-xs;
+          margin-right:0;
+          width: 50%;
+          height: auto;
+        }
+       } 
+       .imagecontainer:hover {
+         h4 {
+
+           display: inline-block;
+          }
+         }
+      }
 }
 
 h1 {
@@ -48,10 +74,8 @@ h1 {
 
         img{
 
-          padding-left: $t-units-s;
-          padding-right: 0%;
-          padding-top: $t-units-s;
-          width: 25%;
+        /*padding-bottom: $t-units-s;*/
+          width: 100%;
           height: auto;
         }
   }
