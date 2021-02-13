@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-  
-      <%= require('html-loader!./partials/modules/header.html') %>
+    <%= require('html-loader!./partials/modules/header.html') %>
    <div class="mainwrapper">
-    <main>
-     <h1>Welcome</h1>
-     <h2>Slide and explore</h2>
-    <section class="slideshow" aria-label="Gallery">
-      <ol class="slideshow__viewport">
+     <main>
+      <h1>Welcome</h1>
+      <h2>Slide and explore</h2>
+       <section class="slideshow" aria-label="Gallery">
+       <ol class="slideshow__viewport">
         <li id="slideshow__slide1"
             tabindex="0"
             class="slideshow__slide">
@@ -40,29 +39,29 @@
             <a href="works2020.html"><img src="./images/PostkarteCorona2Vor.jpg"></a>
      
         </li>
-      </ol>
-      <aside class="slideshow__nav">
-        <ol class="slideshow__nav-list">
-          <li class="slideshow__nav-item">
+       </ol>
+       <aside class="slideshow__nav">
+         <ol class="slideshow__nav-list">
+           <li class="slideshow__nav-item">
             <a href="#slideshow__slide1"
                class="slideshow__nav-button">Go to slide 1</a>
-          </li>
-          <li class="slideshow__nav-item">
+           </li>
+           <li class="slideshow__nav-item">
             <a href="#slideshow__slide2"
                class="slideshow__nav-button">Go to slide 2</a>
-          </li>
-          <li class="slideshow__nav-item">
+           </li>
+           <li class="slideshow__nav-item">
             <a href="#slideshow__slide3"
                class="slideshow__nav-button">Go to slide 3</a>
-          </li>
-          <li class="slideshow__nav-item">
+           </li>
+           <li class="slideshow__nav-item">
             <a href="#slideshow__slide4"
                class="slideshow__nav-button">Go to slide 4</a>
-          </li>
-        </ol>
-      </aside>
-    </section>
-    </main>
+           </li>
+         </ol>
+       </aside>
+       </section>
+     </main>
 
     <%= require('html-loader!./partials/modules/footer.html') %>
    </div>
