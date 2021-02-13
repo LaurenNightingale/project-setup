@@ -13,6 +13,31 @@ body {
       color: $primarycolour;
     }
   }
+
+  .imagecontainer {
+    display: inline-block;
+    margin-left: $t-units-xs;
+    padding: $t-units-s;
+    width: 100%;
+
+    h4 { 
+    display: none;
+    } /*trying to workout how margin needs to be in order for h4 to float on the right*/
+
+    img{
+      float: left;
+      margin-right:0;
+      width: 50%;
+      height: auto;
+    }
+   } 
+   .imagecontainer:hover {
+     h4 {
+       display: block;
+      }
+     }
+  
+
  /*-------- Responsiveness --------*/
  .mainwrapper {
     @media  screen and (min-width:600px) {
@@ -21,6 +46,8 @@ body {
       text-align:left;
 
       .imagecontainer {
+        display: inline-block;
+        margin-left: $t-units-xs;
         padding: $t-units-s;
         width: 100%;
 
@@ -29,8 +56,7 @@ body {
         } /*trying to workout how margin needs to be in order for h4 to float on the right*/
 
         img{
-          display: inline-block;
-          padding-right: $t-units-xs;
+          float: left;
           margin-right:0;
           width: 50%;
           height: auto;
@@ -38,63 +64,12 @@ body {
        } 
        .imagecontainer:hover {
          h4 {
-           padding: $t-units-s;
-         display: inline-block;
+           display: block;
           }
          }
       }
  }
 
- .imagecontainer {
-  padding: $t-units-s;
-  width: 100%;
-  display: inline-block;
 
-  h4 { 
-  display: none;
-  } /*trying to workout how margin needs to be in order for h4 to float on the right*/
-
-  img{
-    /*display: inline-block;*/
-    padding-right: $t-units-xs;
-    margin-right:0;
-    width: 50%;
-    height: auto;
-    float: left;
-  }
- } 
- .imagecontainer:hover {
-   h4 {
-    padding: $t-units-s;
-    /*display: inline-block;*/
-    float: left;
-    }
-  }
-
-
- h1 {
-    display: block;
-    font-size: $t-font-size-h1;
-    font-weight: $t-font-style-h1;
-    color: $primarycolour;
-    text-align: left;
-  
-    }
-  
-    h2 {
-      display: block;
-      font-size: $t-font-size-h2;
-      font-weight: $t-font-style-h2;
-      color: $primarycolourshade1;
-      }
-  
-    h3 {
-      display: block;
-      font-size: $t-font-size-h3;
-      font-weight: $t-font-style-h3;
-      color: black;
-        }
 
 }
-
-
