@@ -26,7 +26,7 @@ body {
 
     img{
       float: left;
-      margin-right:0;
+      margin-right:$t-units-xs;
       width: 50%;
       height: auto;
     }
@@ -57,7 +57,7 @@ body {
 
         img{
           float: left;
-          margin-right:0;
+          margin-right:$t-units-s;
           width: 50%;
           height: auto;
         }
