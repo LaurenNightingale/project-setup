@@ -1,12 +1,9 @@
-
 body {
   font-family: "raleway", sans-serif;
   background-color: #fff;
   padding: $t-units-s;
   word-wrap: break-word;
   
-
-
   a{
     transition: all 0.2;
     color: black;
@@ -16,8 +13,8 @@ body {
       color: $primarycolour;
     }
   }
-  /*-------- Responsiveness --------*/
-  .mainwrapper {
+ /*-------- Responsiveness --------*/
+ .mainwrapper {
     @media  screen and (min-width:600px) {
       margin-left: 256px;
       margin-right: $t-units-s;
@@ -28,7 +25,6 @@ body {
         width: 100%;
 
         h4 { 
-   
         display: none;
         } /*trying to workout how margin needs to be in order for h4 to float on the right*/
 
@@ -47,9 +43,36 @@ body {
           }
          }
       }
-}
+ }
 
-h1 {
+ .imagecontainer {
+  padding: $t-units-s;
+  width: 100%;
+  display: inline-block;
+
+  h4 { 
+  display: none;
+  } /*trying to workout how margin needs to be in order for h4 to float on the right*/
+
+  img{
+    /*display: inline-block;*/
+    padding-right: $t-units-xs;
+    margin-right:0;
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+ } 
+ .imagecontainer:hover {
+   h4 {
+    padding: $t-units-s;
+    /*display: inline-block;*/
+    float: left;
+    }
+  }
+
+
+ h1 {
     display: block;
     font-size: $t-font-size-h1;
     font-weight: $t-font-style-h1;
@@ -72,12 +95,6 @@ h1 {
       color: black;
         }
 
-        img{
-
-        /*padding-bottom: $t-units-s;*/
-          width: 100%;
-          height: auto;
-        }
-  }
+}
 
 
