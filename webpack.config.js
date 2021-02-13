@@ -88,6 +88,12 @@ module.exports = {
       template: "src/works2021.html",
       filename: "works2021.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "Imprint",
+      template: "src/imprint.html",
+      filename: "imprint.html",
+    }),
+    
   
 
     new copyWebpackPlugin ({
